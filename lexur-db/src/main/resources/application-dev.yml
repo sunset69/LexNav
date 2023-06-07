@@ -1,5 +1,6 @@
 spring:
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://43.135.183.35:3306/Lex_Bookmark
     username: lostsunset
     password: lostsunset

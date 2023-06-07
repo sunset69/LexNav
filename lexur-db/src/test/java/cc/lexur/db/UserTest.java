@@ -14,10 +14,11 @@ public class UserTest {
     UserMapper userMapper;
 
     @Test
-    public void mapperTest(){
+    public void mapperTest() {
         User user = new User();
-        user.setUsername("hello").setPassword("world");
-        userMapper.addUser(user);
+        user.setUsername("hello11");
+        user.setPassword("world11");
+        userMapper.insert(user);
     }
 
 }
