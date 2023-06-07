@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://43.135.183.35:3306/Lex_Bookmark
+    username: lostsunset
+    password: lostsunset
