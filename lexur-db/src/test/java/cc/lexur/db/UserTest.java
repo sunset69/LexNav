@@ -1,7 +1,7 @@
 package cc.lexur.db;
 
-import cc.lexur.db.mapper.UserMapper;
 import cc.lexur.db.entity.User;
+import cc.lexur.db.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
